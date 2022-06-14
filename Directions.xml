@@ -1,0 +1,22 @@
+<Environment>
+	<Variable>
+		<Name>Center_93</Name>
+		<Value><![CDATA[Centro Comercial 93]]></Value>
+	</Variable>
+	<Variable>
+		<Name>Hotel_Riviera</Name>
+		<Value><![CDATA[Hotel Casa La Riviera]]></Value>
+	</Variable>
+	<Variable>
+		<Name>Park</Name>
+		<Value><![CDATA[Parque de los Hippies]]></Value>
+	</Variable>
+	<Variable>
+		<Name>Starbucks</Name>
+		<Value><![CDATA[Starbucks Parque El Virrey]]></Value>
+	</Variable>
+	<Variable>
+		<Name>Virrey_Park</Name>
+		<Value><![CDATA[Parque El Virrey]]></Value>
+	</Variable>
+</Environment>

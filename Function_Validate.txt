@@ -1,0 +1,13 @@
+ Sub validate_object(navigator, object, title, desc_success, desc_fail, period)
+	cont = 0
+	Do
+		cont =+ 1
+		If cont = tiempo then 
+			navigator.CaptureBitmap "Evidence.png", True
+			Reporter.ReportEvent micFail, title, desc_fail, "Evidence.png"
+			ExitTestIteration
+		End If
+	Loop Until object.Exist(1)
+	navigator.CaptureBitmap "Evidence.png", True
+	Reporter.ReportEvent micPass, titulo, desc_success, "Evidence.png"
+End Sub
